@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="main">
+        <div class="heading">Login form</div>
+   <form name="form1" id="form1">
+      
+       <label for="email" class="lab">Email:</label><span class="valid" id="emailvalid"></span><br>
+       <input type="email" id="loginemail" name="emailfield" class="inpu"> <br>
+      
+       <label for="password" class="lab">Password:</label><span class="valid" id="passwordvalid"></span><br>
+       <input type="password" id="password" name="pwdfield" class="inpu"> <br>
+       <input type="button" value="Login" id="submit" onclick="submitt()" class="btn">
+       <input type="reset" value="Cancel"id="reset" class="btn" ">
+       <span class="success" id="succ"></span>
+    </form> 
+    </div> 
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.main{
+    border:4px solid rgb(48, 48, 49);
+    height: 700px;
+    width: 500px;
+    padding: 20px 20px;
+    margin: 50px 600px;
+    background-color:rgb(149, 146, 142); 
+    
+}
+.empvalid{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(184, 13, 13);
+    margin:20px 20px;
+
+}
+.heading{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 40px;
+    font-weight: bold;
+    text-shadow:4px 4px 10px white;
+}
+.success{
+    color: rgb(10, 75, 10);
+    font-weight: bold;
+    font-size: 30px;
+}
+.valid{
+    color: rgb(138, 14, 14);
+    font-size: 25px;
+    font-weight: bold;
+}
+.lab{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px ;
+    font-weight: bold;
+    
+}
+.inpu{
+    margin:20px 20px;
+    width: 400px;
+    height: 30px;
+    font-size:20px ;sk
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    margin: 15px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10%;
+}
+#submit{
+    background-color: rgb(74, 123, 236);
+}
+#reset{
+    background-color: rgb(235, 43, 43);
+}
